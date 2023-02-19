@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden
+}
+
+body{
+    background: url(../img/capa.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+/* Cabeçalho */
+header{
+    background-color: rgba(000, 000, 000, 0.5);
+    padding: 1vh 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+/* Seção principal */
+
+#principal{
+    height: 100vh;
+}
+
+#principal h1{
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+	color: white;
+}
+
+.btn-purple{
+    color: #fff;
+    background-color: #7c26f8;
+    font-size: 1.5em;
+    padding: 0.2em 1.2em;
+    border-radius: 500px;
+}
+
+.btn-purple:hover{
+    color: #fff;
+    background-color: #6207e3;
+}
+
+.btn-white{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 1.5em;
+    padding: 0.2em 1.2em;
+    border-radius: 500px;
+}
+
+.btn-white:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+/* Albuns */
+
+#albuns{
+    background-color: #fff;
+}
+
+#albuns h2, #albuns h3{
+    color: #7c26f8;
+    font-weight: 700;
+}
+
+#albuns h2{
+    font-size: 3em;
+}
+
+#functions h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#functions h3{
+    color: #9bf0e1;
+    font-weight: 600;
+}
+
+.rotate{
+    transform: rotate(30deg);
+}
+
+/* Footer */
+
+footer{
+    background-color: #000;
+}
+
+footer h6{
+    font-size: 0.95em;
+}
+
+footer .navbar-nav a{
+    color: #fff;
+    font-size: 0.85em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .rotate{
+        transform: none;
+    }
+
+    footer img{
+        width: 120px;
+    }
+
+    #principal h1{
+        font-size: 2.5em;
+    }
+
+    #principal .btn{
+        font-size: 1em;
+    }
+}
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (min-width:576px) and (max-width: 767.98px) { 
+    .rotate{
+        transform: none;
+    }
+
+    footer img{
+        width: 180px;
+    }
+    
+    #principal h1{
+        font-size: 3em;
+    }
+
+    #principal .btn{
+        font-size: 1.3em;
+    }
+}
+
+ /* Medium devices (tablets, less than 992px) */
+@media (min-width:768px) and (max-width: 991.98px) {   
+    footer img{
+        width: 110px;
+    }
+    
+    #principal h1{
+        font-size: 4em;
+    }
+
+    #principal .btn{
+        font-size: 1.5em;
+    }
+}
+
+ /* Large devices (desktops, less than 1200px) */
+@media (min-width:992px) and (max-width: 1199.98px) { 
+
+    footer img{
+        width: 150px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    footer img{
+        width: 150px;
+    }
+}
