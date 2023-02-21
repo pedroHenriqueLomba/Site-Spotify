@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fav icon -->
+    <link rel="icon" href="img/favicon.png"/>
+    <!-- Estilo de CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Spotify</title>
+</head>
+<body>
+    
+<header class="fixed-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Logo -->
+            <a href="" class="navbar-brand"><img src="img/spotify.svg" width="142" alt="Spotify"></a>
+    
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler border border-light" data-toggle="collapse" data-target="#navbar-principal">
+                <span class="text-light"><i class="fa-solid fa-bars"></i></span>
+            </button>
+    
+            <!-- navegacao -->
+            <div class="collapse navbar-collapse" id="navbar-principal">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Baixar</a>
+                    </li>
+                    <li class="nav-item d-none d-md-block">
+                        <span class="nav-link text-light">|</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Inscrever-se</a>
+                    </li>                  
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section id="principal" class="d-flex">
+    <div class="container align-self-center">
+        <div id="carousel-controls" class="carousel slide" data-ride="carousel"><!--Carousel -->
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <h1>Música para todos</h1>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center mt-3">
+                    <a href="" class="btn btn-purple my-1">Aproveite o Spotify Free</a>
+                    <a href="" class="btn btn-white my-1">Obter o Spotify Premium</a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <h1>As melhores rádios</h1>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="btn btn-white"><i class="fa-solid fa-music"></i> Aproveite o Spotify Free</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="#carousel-controls" class="carousel-control-prev d-flex justify-content-start" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#carousel-controls" class="carousel-control-next d-flex justify-content-end" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div>
+    </div>
+</section>
+
+<section id="albuns">
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/img1.jpg" alt="" class="img-fluid my-1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/img2.jpg" alt="" class="img-fluid my-1">
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/img3.jpg" alt="" class="img-fluid my-1">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/img4.jpg" alt="" class="img-fluid my-1">
+                    </div>
+                </div>    
+            </div>
+            <div class="col-md-6">
+                <h2>O que o Spotify tem?</h2>
+                <h3>Músicas</h3>
+                <p>O Spotify tem milhões de músicas. Escute seus sons favoritos, descubra novas músicas e reúna seus favoritos em um só lugar.</p>
+                <h3>Playlists</h3>
+                <p>No Spotify você encontra uma playlist para cada momento. Todas feitas por fanáticos e especialistas da música.</p>
+                <h3>Novos lançamentos</h3>
+                <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="functions" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Fácil</h2>
+                <h3>Buscar</h3>
+                <p class="text-light">Já sabe o que quer escutar? É só procurar e apertar o play.</p>
+                <h3>Navegar</h3>
+                <p class="text-light">Veja os novos lançamentos, o que está bombando nas paradas e as melhores playlists para o seu momento.</p>
+                <h3>Descobrir</h3>
+                <p class="text-light">Curta músicas novas toda segunda-feira com uma playlist personalizada pra você. Ou relaxe e curta uma das rádios</p>
+            </div>
+            <div class="col-md-8 rotate">
+                <div class="row d-flex justify-content-end">
+                    <div class="col-md-5 d-flex justify-content-center">
+                        <img src="img/iphone1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-5 d-none d-md-block">
+                        <img src="img/iphone2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="position-relative py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="img/spotify.svg" alt="Spotify">
+            </div>
+            <div class="col-md-2 mt-2">
+                <h6 class="text-secondary">EMPRESA</h6>
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="">Empregos</a>
+                    </li>
+                    <li>
+                        <a href="">Imprensa</a>
+                    </li>
+                    <li>
+                        <a href="">Novidades</a>
+                    </li>                  
+                </ul>
+            </div>
+            <div class="col-md-2 mt-2">
+                <h6 class="text-secondary">COMUNIDADES</h6>
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="">Artistas</a>
+                    </li>
+                    <li>
+                        <a href="">Desenvolvedores</a>
+                    </li>
+                    <li>
+                        <a href="">Marcas</a>
+                    </li>              
+                </ul>
+            </div>
+            <div class="col-md-2 mt-2">
+                <h6 class="text-secondary">LINKS ÚTEIS</h6>
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="">Ajuda</a>
+                    </li>
+                    <li>
+                        <a href="">Presentes</a>
+                    </li>
+                    <li>
+                        <a href="">Player web</a>
+                    </li>    
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="" class="btn btn-outline-light border-0 p-1 mr-3"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+                <a href="" class="btn btn-outline-light border-0 p-1 mr-3"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="" class="btn btn-outline-light border-0 p-1 mr-3"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="" class="btn btn-outline-light border-0 p-1 mr-3"><i class="fa-brands fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Java Script Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
